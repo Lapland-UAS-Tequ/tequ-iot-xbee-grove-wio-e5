@@ -15,19 +15,16 @@ XBee 3 based datalogger that uses Grove Wio-E5 module to send data to LoRaWAN ne
 Connections of the hardware used. 
 | Device                        | PIN            | Device             | PIN            | 
 | ----------------------------- |:--------------:| :-----------------:| :-------------:|
-| XBee Explorer USB-C | VIN | Battery | + |
-| XBee Explorer USB-C | GND | Battery | - |
-
+| XBee Explorer USB-C  | VIN  | Battery  | +  |
+| XBee Explorer USB-C  | GND  | Battery  | -  |
 | XBee Explorer USB-C | 3V3 | INA260 | VCC |
 | XBee Explorer USB-C | GND | INA260 | GND |
 | XBee Explorer USB-C | SDA(7) | INA260 | SDA |
 | XBee Explorer USB-C | SCL(19) | INA260 | SCL |
-
 | XBee Explorer USB-C | 3V3 | TMP102 | 3V3 |
 | XBee Explorer USB-C | GND | TMP102 | GND |
 | XBee Explorer USB-C | SDA(7) | TMP102 | SDA |
 | XBee Explorer USB-C | SCL(19) | TMP102 | SCL |
-
 | XBee Explorer USB-C | 3V3 | Grove Wio-E5 | 3V3 |
 | XBee Explorer USB-C | GND | Grove Wio-E5 | GND |
 | XBee Explorer USB-C | TX(2) | Grove Wio-E5 | TX |

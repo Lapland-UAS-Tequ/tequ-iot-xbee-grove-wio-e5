@@ -44,8 +44,11 @@ Download this repository's code as a ZIP file or clone it directly to your devic
 
 Next open up PyCharm and navigate to `File -> Open...`. From the pop-up window, find where you unpacked this repository's code and open the folder, this will create a PyCharm project out of it. The code should already contain all the required libraries. 
 
-### 3. Verify operation
-Upload the code to the built device and check that it is sending data to your LoRaWAN server.
+### 3. Connect your XBee board
+Plug the USB-C connection to your device via cable. In PyCharm, navigate to the `Select an XBee device` and press the `Discover and select an XBee device` option in the drop-down window. From here select `Local PC` and let it search. If your device is not found, try to modify the search settings.  
+
+### 4. Verify operation
+Upload the code to the built device and check that it is sending data to your LoRaWAN server. PyCharm may also prompt you to enable `MicroPython REPL` on the XBee device if it is not on already, allow it.
 
 ## NOTE
 The XBee 3 that is used here only has 1 UART line which means that both the USB and the Wio-E5 UART connection are on the same line. This causes messages and commands sent to one device appear for the other. The Wio-E5 shouldn't get confused with normal print statements intented for the PC connected, but it may confuse the user 

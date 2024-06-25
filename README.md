@@ -9,6 +9,7 @@ XBee 3 based datalogger that uses Grove Wio-E5 module to send data to LoRaWAN ne
 | LoRaWAN module | Grove Wio-E5 | <a href="https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html">Link</a>|
 | Voltage/Current/Power sensor | Adafruit INA260 | <a href="https://www.adafruit.com/product/4226">Link</a>|
 | Temperature sensor | Sparkfun TMP102 | <a href="https://www.sparkfun.com/products/13314">Link</a>|
+| Battery | 3.7V LiPo |  |
 
 
 ## Connections
